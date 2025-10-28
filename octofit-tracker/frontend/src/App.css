@@ -1,0 +1,136 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  color: #222;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 48px;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.navbar-brand, .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+}
+.navbar-brand img {
+  height: 40px;
+  margin-right: 8px;
+}
+.navbar-text .btn {
+  background: #fff;
+  color: #007bff;
+  border-radius: 20px;
+  font-weight: 500;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #007bff;
+  font-weight: 700;
+}
+.card-title {
+  color: #00c6ff;
+}
+
+.table {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.table-dark th {
+  background: #007bff !important;
+  color: #fff !important;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+  background: #e3f2fd;
+}
+.table-bordered {
+  border: 2px solid #007bff;
+}
+
+.btn, .btn-outline-light {
+  background: linear-gradient(90deg, #00c6ff 0%, #007bff 100%);
+  color: #fff !important;
+  border: none;
+  font-weight: 600;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.07);
+}
+.btn:hover, .btn-outline-light:hover {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  color: #fff !important;
+}
+
+a {
+  color: #00c6ff;
+  text-decoration: none;
+}
+a:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.card {
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  border-radius: 12px;
+}
+
+/* Favicon and logo styles */
+.favicon {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+.logo-small {
+  height: 48px;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
